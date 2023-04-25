@@ -1,0 +1,55 @@
+#container {
+  width: 750px;
+  margin-left: 350px;
+  margin-top: 60px;
+  border: 1px solid black;
+}
+
+h1 {
+  margin-left: 50px;
+  text-align: left;
+}
+#bookmark {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: darkgray;
+  color: white;
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+#search {
+  width: 500px;
+  height: 30px;
+  margin-left: 50px;
+  border-radius: 25px;
+  padding-left: 15px;
+}
+
+#submit {
+  width: 70px;
+  height: 35px;
+  margin-right: 100px;
+  border-radius: 25px;
+  background-color: rgb(81, 78, 78);
+  color: white;
+  font-weight: bold;
+}
+
+#image {
+  width: 220px;
+  height: 200px;
+  margin-left: 5px;
+}
+#photos {
+  width: 750px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 45px;
+  /* border: 1px solid blue; */
+}
